@@ -1,0 +1,85 @@
+body{
+    background-color: #f5f7fa;
+}
+.cont{
+    background-color: #fff;
+}
+.w-400{
+    width: 450px;
+}
+.w-10{
+    width: 10%;
+}
+.w-15{
+    width: 15%;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+#alert{
+    line-height: 25px;
+}
+.fs-xs{
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+.fs-sm{
+    font-size: 1.4rem;
+}
+.online{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(16, 198, 16);
+    border-radius: 50%;
+}
+small{
+    color: black;
+    font-size:0.8rem;
+    text-align:right;
+}
+.chat-box{
+    overflow-y: auto;
+    max-height: 50vh;
+    /* min-height: 50vh; */
+    border-bottom-left-radius:0px !important;
+    border-bottom-right-radius:0px !important;
+    background-color:#badcff ;
+}
+.rtext{
+    width: 65%;
+    background-color: #f8f9fa;
+    color: #444;
+    padding: 15px 0;
+}
+.ltext{
+    width: 65%;
+    background-color: #3289c8;
+    color: #fff;
+    padding: 15px 0;
+}
+/* track */
+*::-webkit-scrollbar {
+    width: 3px;
+}
+/* Handle */
+*::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+/* Handle on hover */
+*::-webkit-scrollbar-track{
+    background-color: #3289c8;
+}
+#input_section{
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    height: 50px;
+}
+#message_input{
+    border-top-left-radius: 0 !important;
+    border:transparent;
+}
+
+#message_send_btn{
+    border-top-right-radius: 0 !important;
+}
